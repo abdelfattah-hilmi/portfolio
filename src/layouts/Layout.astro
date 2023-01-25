@@ -19,7 +19,7 @@ export interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL(
-  "/opengraph.jpg",
+  "/opengraph.jpg", // TODO  add own screen shot
   Astro.site
 ).toString();
 
@@ -28,6 +28,7 @@ const { title } = Astro.props;
 const makeTitle = title
   ? title + " | " + "Cloud"
   : "Abdelfattah Hilmi's personal portfolio and blog";
+
 ---
 
 <!DOCTYPE html>
@@ -35,7 +36,7 @@ const makeTitle = title
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/HilmiLOGO-new.png" />
     <meta name="generator" content={Astro.generator} />
 
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
@@ -56,7 +57,7 @@ const makeTitle = title
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Astroship Homepage Screenshot",
+          alt: "Abdelfattah Hilmi's portfolio @: pyhilmi.online ",
         },
       }}
     />
