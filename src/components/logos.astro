@@ -1,23 +1,23 @@
 ---
 // @ts-ignore
 import { Icon } from "astro-icon";
+
+const techs:string[] = ["python","java","javascript","django","flask","astro","docker","kubernetes","terraform","ansible","googlecloud","gitlab","github","githubactions","flutter"];
 ---
 
 <div class="mt-24">
   <h2 class="text-center text-slate-500">I prefer to use :</h2>
   <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap ">
-    <Icon class="h-8 md:h-12" name="simple-icons:docker" />
-    <Icon class="h-8 md:h-12" name="simple-icons:python" />
-    <Icon class="h-8 md:h-12" name="simple-icons:java" />
-    <Icon class="h-8 md:h-12" name="simple-icons:astro" />
-    <Icon class="h-8 md:h-12" name="simple-icons:django" />
-    <Icon class="h-8 md:h-12" name="simple-icons:flask" />
-    <Icon class="h-8 md:h-12" name="simple-icons:kubernetes" />
-    <Icon class="h-8 md:h-12" name="simple-icons:terraform" />
-    <Icon class="h-8 md:h-12" name="simple-icons:gitlab" />
-    <Icon class="h-8 md:h-12" name="simple-icons:github" />
-    <Icon class="h-8 md:h-12" name="simple-icons:githubactions" />
-    <Icon class="h-8 md:h-12" name="simple-icons:googlecloud" />
-    <Icon class="h-8 md:h-12" name="simple-icons:flutter" />
-    </div>
+
+  
+  {
+    techs.map(
+      function generate_icons(tech){
+        const icon =  "simple-icons:"+tech;
+        return <Icon class="h-8 md:h-12 text-teal-800 hover:text-teal-500"  name={icon}/>
+      }
+      )
+    }
 </div>
+</div>
+
