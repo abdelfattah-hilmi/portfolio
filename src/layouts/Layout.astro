@@ -35,39 +35,39 @@ const makeTitle = title
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/HilmiLOGO-new.png" />
+    <link rel="icon" type="image/png" href="/HilmiLOGO.png" />
     <meta name="generator" content={Astro.generator} />
   <!-- Google tag (gtag.js) -->
-  <script type="text/partytown"  src="https://www.googletagmanager.com/gtag/js?id=G-DBLFM999PM"></script>
-  <script type="text/partytown">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <script type="text/partytown"  src="https://www.googletagmanager.com/gtag/js?id=G-DBLFM999PM"></script>
+    <script type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-DBLFM999PM');
+      gtag('config', 'G-DBLFM999PM');
     </script>
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
-      title={makeTitle}
-      description=""
-      canonical={canonicalURL}
-      twitter={{
-        creator: "@Hilmi_Abdel",
-        site: "@Hilmi_Abdel",
-        card: "summary_large_image",
-      }}
-      openGraph={{
-        basic: {
-          url: canonicalURL,
-          type: "website",
-          title: `Abdelfattah Hilmi's personal portfolio and blog`,
-          image: resolvedImageWithDomain,
-        },
-        image: {
-          alt: "Abdelfattah Hilmi's portfolio @: pyhilmi.online ",
-        },
-      }}
-    />
+        title={makeTitle}
+        description=""
+        canonical={canonicalURL}
+        twitter={{
+          creator: "@Hilmi_Abdel",
+          site: "@Hilmi_Abdel",
+          card: "summary_large_image",
+        }}
+        openGraph={{
+          basic: {
+            url: canonicalURL,
+            type: "website",
+            title: `Abdelfattah Hilmi's personal portfolio and blog`,
+            image: resolvedImageWithDomain,
+          },
+          image: {
+            alt: "Abdelfattah Hilmi's portfolio @: pyhilmi.online ",
+          },
+        }}
+      />
   </head>
   <body>
     <Navbar />
