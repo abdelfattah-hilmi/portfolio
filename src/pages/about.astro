@@ -4,7 +4,7 @@ import Container from "@components/container.astro";
 import Sectionhead from "@components/sectionhead.astro";
 import { Picture } from "@astrojs/image/components";
 
-const profile ="./profile_hilmi.jpg";
+const profile ="/profile_hilmi.jpg";
 
 
 const team = [
@@ -27,17 +27,17 @@ const team = [
       <Fragment slot="desc">I am a simple man with a knack for Tech, Programming 🧑‍💻, Cloud Computing ☁️ and desire for growth. If you want to know more about me and what I do, check out my projects or the  <a class="text-black font-semibold" href="/blog"> blog page. </a></Fragment>
     </Sectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+    <!-- <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl text-gray-800">
         Empowering the world with Astro.
       </h2>
-      <!-- TODO change the following to projects -->
+      TODO change the following to projects
       <p class="text-lg leading-relaxed text-slate-500">
         We're a multi-cultural team from around the world! We come from diverse
         backgrounds, bringing different personalities, experiences and skills to
         the job. This is what makes our team so special.
-      </p>
-    </div>
+      </p> 
+    </div> -->
     <div class="grid  place-content-center gap-10 mx-auto max-w-4xl mt-12">
       {
         team.map((item) => (
