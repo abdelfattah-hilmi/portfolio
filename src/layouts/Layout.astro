@@ -11,7 +11,7 @@ export interface Props {
 const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 
 const resolvedImageWithDomain = new URL(
-  "/portfolioScreenCatch.png", // TODO  add own screen shot
+  "/portfolioScreenCatch.png", 
   Astro.site
 ).toString();
 
@@ -41,7 +41,7 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
         title={makeTitle}
-        description=""
+        description="Hello I am Abdelfattah Hilmi a junior cloud engineer, welcome to my personal portfolio and blog"
         canonical={canonicalURL}
         twitter={{
           creator: "@Hilmi_Abdel",
