@@ -2,19 +2,19 @@
 // @ts-ignore
 import { Icon } from "astro-icon";
 
-const techs:string[] = ["python","java","javascript","django","flask","astro","docker","kubernetes","terraform","ansible","googlecloud","gitlab","github","githubactions","flutter"];
+const techs:string[] = ["python","java","javascript","django-icon","flask","astro","react","docker-icon","linux-tux","kubernetes","terraform-icon","ansible","google-cloud","gitlab","github-icon","github-actions","flutter"];
 ---
 
 <div class="mt-4">
   <h2 class="text-center text-lg text-slate-600">The technoloies I prefer to use are:</h2>
-  <div class="max-w-4xl m-auto flex justify-center" >
+  <div class="max-w-3xl m-auto flex justify-center" >
     <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
   
     {
       techs.map(
         function generate_icons(tech){
-          const icon =  "simple-icons:"+tech;
-          return <Icon class="h-8 md:h-12 text-teal-800 hover:text-teal-500"  name={icon}/>
+          const icon =  "logos:"+tech;
+          return <Icon class="h-8 md:h-12 hover:filter hover:drop-shadow-lg"  name={icon}/>
         }
         )
       }
