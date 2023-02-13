@@ -97,6 +97,11 @@ import Button from "./ui/button.astro";
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
+        //--------- this does not make sense but escaping hard times requires doubt 
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
+        // --------
         "Content-Type": "application/json",
         "Accept": "application/json",
       },
