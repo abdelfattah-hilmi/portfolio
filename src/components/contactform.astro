@@ -9,7 +9,7 @@ import Button from "./ui/button.astro";
      <!-- action="https://api.web3forms.com/submit" -->
      <!-- class="needs-validation" -->
      <!-- novalidate> -->
-<form id="form" name="pyhilmi-contact-form" method="POST" data-netlify="true" >
+<form id="form" name="pyhilmi-contact-form" method="POST" class="needs-validation" action="https://api.web3forms.com/submit"  novalidate >
   <!-- !The following access key is public so no threat -->
   <input type="hidden" name="access_key" value="2b186ea5-ee9d-40c1-b91a-588e79fbabee" />
   <!-- Create your free access key from https://web3forms.com/ -->
@@ -76,7 +76,7 @@ import Button from "./ui/button.astro";
     border-color: #dc3545;
   }
 </style>
-<!-- 
+
 <script is:inline>
   const form = document.getElementById("form");
   const result = document.getElementById("result");
@@ -126,4 +126,4 @@ import Button from "./ui/button.astro";
         }, 5000);
       });
   });
-</script> -->
+</script>
