@@ -6,7 +6,7 @@ const techs:string[] = ["python","java","javascript","django-icon","flask","astr
 ---
 
 <div class="mt-4">
-  <h2 class="text-center text-lg text-slate-600">The technoloies I prefer to use are:</h2>
+  <h2 class="text-center text-lg text-slate-600">Favourite tools and techs:</h2>
   <div class="max-w-3xl m-auto flex justify-center" >
     <div class="flex gap-8 md:gap-20 items-center justify-center mt-10 flex-wrap">
   
@@ -14,7 +14,7 @@ const techs:string[] = ["python","java","javascript","django-icon","flask","astr
       techs.map(
         function generate_icons(tech){
           const icon =  "logos:"+tech;
-          return <Icon class="h-8 md:h-12 hover:filter hover:drop-shadow-lg"  name={icon}/>
+          return <Icon class="h-8 md:h-12  hover:rotate-12 "  name={icon}/>
         }
         )
       }
