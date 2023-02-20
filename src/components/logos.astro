@@ -2,7 +2,7 @@
 // @ts-ignore
 import { Icon } from "astro-icon";
 
-const techs:string[] = ["python","java","javascript","django-icon","flask","astro","react","docker-icon","linux-tux","kubernetes","terraform-icon","ansible","google-cloud","gitlab","github-icon","github-actions","flutter"];
+const techs:string[] = ["python","go","java","javascript","django-icon","flask","astro","react","docker-icon","linux-tux","kubernetes","terraform-icon","ansible","google-cloud","gitlab","github-icon","github-actions","flutter"];
 ---
 
 <div class="mt-4" >
@@ -14,7 +14,7 @@ const techs:string[] = ["python","java","javascript","django-icon","flask","astr
       techs.map(
         function generate_icons(tech){
           const icon =  "logos:"+tech;
-          return <Icon class="h-8 md:h-12  hover:rotate-12 "  name={icon}/>
+          return tech!=="go" ? <Icon class="h-8 md:h-12  hover:rotate-12 "  name={icon}/> : <Icon class="h-8 md:h-12  hover:rotate-12 "  name="vscode-icons:file-type-go-gopher"/> 
         }
         )
       }
