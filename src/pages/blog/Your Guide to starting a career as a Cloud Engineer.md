@@ -267,6 +267,8 @@ it allows you to automate the provisioning and management of infrastructure.
 Resources:
 
 - What is terraform: [Terraform explained in 15 mins | Terraform Tutorial for Beginners](https://www.youtube.com/watch?v=l5k1ai_GBDE)
+- Terraform on AWS tutorial: https://spacelift.io/blog/terraform-tutorial
+- HashiCorp Terraform Associate Certification Course: https://www.youtube.com/watch?v=V4waklkBC38
 - The official documentation is awesome 👏👏:
     https://developer.hashicorp.com/terraform/docs
 
