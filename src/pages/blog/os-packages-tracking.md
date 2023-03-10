@@ -2,7 +2,7 @@
 title: "Documenting progress of examining os packages version tracking"
 excerpt: "Documenting progress of examining os packages version tracking"
 publishDate: "2023-03-10T19:58:36.050Z"
-image: "/Intro-to-cloud-from-youtube.jpg"
+image: "https://learn.g2.com/hubfs/G2CM_GI129_Glossary_Article_Images-%5BOnline_Behavior_Tracking%5D_V1b.png"
 category: "Docs"
 author: "Abdelfattah Hilmi"
 layout: "@layouts/BlogLayout.astro"
