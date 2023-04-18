@@ -167,3 +167,4 @@ presents valuable insights about package maintainace, Activity, vulns+sast repor
 ## Other tools I'm checking:
 
 - https://pypi.org/project/nvchecker/ : nvchecker (short for new version checker) is for checking if a new version of some software has been released
+  before installing the package run the command `sudo apt install libcurl4-openssl-dev libssl-dev`
