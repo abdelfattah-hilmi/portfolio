@@ -9,12 +9,14 @@ layout: "@layouts/BlogLayout.astro"
 tags: [Cloud, Devsecops, SRE]
 ---
 
-## Sowing the Seeds: Getting Started with Gardener 🌱
+## Getting Started with Gardener 🌱
 
 Soooo, picture this: Kubernetes clusters are like little gardens, and Gardener? Well… it's the ultimate garden manager. It waters your clusters, trims the weeds, and makes sure nothing dies while you’re binge-watching a series. Now, normally, I’m picky about the tools I add to my HomeLab—I like to stick to a stack until I know it like the back of my hand. But… dammit, Gardener is so cool you just can’t ignore it—even if I technically have no use for it. LOL.
 
 Let’s dive in.
 
+
+![high level architecture](https://demo.gardener.cloud/static/cluster-hierarchy.png)
 ---
 
 ### Focus on the Most Important: What is a Shoot?
