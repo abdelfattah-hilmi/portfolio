@@ -1,6 +1,6 @@
 ---
-title: "Documenting progress of examining os packages version tracking"
-excerpt: "Documenting progress of examining os packages version tracking"
+title: "K8S at scale - Gardener step 1: sowing the seeds  "
+excerpt: "K8S at scale - Gardener step 1: sowing the seeds  "
 publishDate: "2025-09-15T23:07:07.071Z"
 image: "https://demo.gardener.cloud/static/cluster-hierarchy.png"
 category: "Docs"
